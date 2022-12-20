@@ -5,7 +5,7 @@ body,html{
 }
 
 .container-fluid{
-    padding: 0
+    padding: 0;
 }
 
 /*header*/
@@ -96,20 +96,20 @@ img {
     margin: 20px;
 }
 
-.btn a{
+.inner-banner .btn a{
     transition: all 0.1s;
     border: 0px;
     color: black;
 }
 
-.btn:hover{
+.inner-banner .btn:hover{
     transition: all 0.1s;
     transition-timing-function: ease;
     background-color:rgba(255, 185, 7,1);
     text-decoration: none;
 }
 
-.btn a:hover{
+.inner-banner .btn a:hover{
     text-decoration: none;
 }
 
@@ -132,7 +132,29 @@ img {
     text-decoration: none;
 }
 
-/*about*/
+/*événement*/
+    /*card*/
+.row{
+    padding:0px;
+    margin: 0px;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card{
+    margin: 2rem;
+    padding: 0;
+    word-wrap: break-word;
+    line-break: auto;
+}
+
+.card-img-top{
+    height: 50%;
+    width: 100%;
+}
+
 
 /*media queries*/
 @media screen and (min-width:992px) {  
