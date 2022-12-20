@@ -27,6 +27,10 @@ body,html{
     color: white;
 }
 
+.active{
+    color: rgb(255, 200, 7);
+}
+
 .navbar-brand:hover{
     text-decoration: none;
     color: rgb(172, 149, 149);
