@@ -181,24 +181,26 @@
           </button>
         </div>
         <div class="modal-body">
-            <p required>Allez-vous exposer votre Abarth?
-                <br>
-                <input type="radio" id="civilité" name="civilité">
-                <label for="civilité">Oui</label>
-                <input type="radio" id="civilité1" name="civilité">
-                <label for="civilité1">Non</label>
+            <p>Allez-vous exposer votre Abarth?
+                <div>
+                  <input type="radio" id="civilité" name="civilité">
+                  <label for="civilité">Oui</label>
+                  <input type="radio" id="civilité1" name="civilité">
+                  <label for="civilité1">Non</label>
+                </div>
             </p>
             <p> 
                 <label for="pref"> Si oui, quel est son modèle :</label>
                 <select itemref="pref" name="choix">
                     <optgroup label="Avant 2015">
-                        <option value="Abarth595">Abarth 595</option>
-                        <option value="Abarth595T14">Abarth 595 Turismo</option>
-                        <option value="Abarth595E14">Abarth 595 Esseesse</option>
+                        <option value="Abarth500">Abarth 500</option>
+                        <option value="Abarth500C">Abarth 500 C</option>
+                        <option value="Abarth500E">Abarth 500 Esseesse</option>
                     </optgroup>
                     <optgroup label="Après 2015">
-                        <option label="Abarth 595 Turismo">Abarth 595 Turismo</option>
-                        <option label="Abarth 595 Essesse">Abarth 595 Esseesse</option>
+                        <option label="Abarth 595">Abarth 595</option>
+                        <option label="Abarth 595 C">Abarth 595C</option>
+                        <option label="Abarth 595 Esseesse">Abarth 595 Esseesse</option>
                         <option label="Abarth 595 Competizione">Abarth 595 Competizione</option>
                     </optgroup>
                 </select>
@@ -206,7 +208,9 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Je ne participe pas</button>
-          <button type="button" class="btn btn-warning">Je participe</button>
+          <button type="button" class="btn btn-warning"> 
+            <a href="evenements.valide.html">Je participe</a>
+          </button>
         </div>
       </div>
     </div>

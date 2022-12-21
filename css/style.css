@@ -134,27 +134,55 @@ img {
 
 /*événement*/
     /*card*/
-.row{
-    padding:0px;
-    margin: 0px;
+    .row{
+        padding:0px;
+        margin: 0px;
+    }
+
+    .card-title{
+        font-weight: bold;
+    }
+
+    .card{
+        margin: 2rem;
+        padding: 0;
+        word-wrap: break-word;
+        line-break: auto;
+    }
+
+    .card-img-top{
+        height: 50%;
+        width: 100%;
+    }
+
+/*Modal*/
+.modal-footer button a{
+    text-decoration: none;
+    color: black;
 }
 
-.card-title{
-    font-weight: bold;
+.modal-footer button a:hover{
+    text-decoration: none;
+    color: black
 }
 
-.card{
-    margin: 2rem;
-    padding: 0;
-    word-wrap: break-word;
-    line-break: auto;
+/*Evenements valide*/
+.valid{
+    text-align: center;
+    background-color: blac;
 }
 
-.card-img-top{
-    height: 50%;
-    width: 100%;
+.valid h1{
+    text-align: center;
+    color:rgba(255, 193, 7,0.8);
+    padding: 3%;
 }
 
+.valid h3{
+    text-align: center;
+    color:black;
+    padding: 3%;
+}
 
 /*media queries*/
 @media screen and (min-width:992px) {  
