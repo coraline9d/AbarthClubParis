@@ -2,4 +2,4 @@
 
 ## Create page
 
-Page Histoire 
+Page Galerie

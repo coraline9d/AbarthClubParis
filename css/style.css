@@ -184,6 +184,14 @@ img {
     padding: 3%;
 }
 
+/*Carousel*/
+.carousel-caption{
+    text-shadow: 1.3px 1.3px 20px black;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+}
+
 /*media queries*/
 @media screen and (min-width:992px) {  
     .inner-banner h1{
@@ -220,5 +228,15 @@ img {
     
     .navbar-brand{
         font-size: 1.5rem;
+    }
+
+    .carousel-caption{
+        position: absolute;
+        top: 85%;
+    }
+    .place{
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 70%;
     }
 }
