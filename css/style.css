@@ -96,20 +96,10 @@ img {
     margin: 20px;
 }
 
-.inner-banner .btn a{
-    transition: all 0.1s;
-    border: 0px;
-    color: black;
-}
-
 .inner-banner .btn:hover{
     transition: all 0.1s;
     transition-timing-function: ease;
     background-color:rgba(255, 185, 7,1);
-    text-decoration: none;
-}
-
-.inner-banner .btn a:hover{
     text-decoration: none;
 }
 
@@ -164,6 +154,15 @@ img {
 .modal-footer button a:hover{
     text-decoration: none;
     color: black
+}
+
+.modal-body h2{
+    font-size: 1.5rem;
+    color: rgba(255, 193, 7,0.8);
+}
+
+.modal-body h4{
+    font-size: 1.2rem;
 }
 
 /*Evenements valide*/
@@ -239,7 +238,7 @@ img {
         margin: 20px;
     }
     
-    .inner-banner div button{
+    .inner-banner div a{
         font-size: 2rem;
         margin: 20px;
     }

@@ -14,7 +14,7 @@
 <header>
     <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">ABARTH CLUB PARIS</a>
+        <a class="navbar-brand" href="../index.html">ABARTH CLUB PARIS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="evenements.html">Événements</a>
@@ -42,7 +42,7 @@
     </nav>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Accueil</a></li>
           <li class="breadcrumb-item active" aria-current="page">Événements</li>
         </ol>
       </nav>
@@ -182,16 +182,21 @@
         </div>
         <div class="modal-body">
             <p>Allez-vous exposer votre Abarth?
+              <form method="POST" action="action.php">
                 <div>
-                  <input type="radio" id="civilité" name="civilité">
-                  <label for="civilité">Oui</label>
+                  <label for="civilité">
+                  <input type="radio" id="civilité" name="civilité" checked>
+                  Oui</label>
+                  <label for="civilité1">
                   <input type="radio" id="civilité1" name="civilité">
-                  <label for="civilité1">Non</label>
+                  Non</label>
                 </div>
+              </form>
             </p>
             <p> 
                 <label for="pref"> Si oui, quel est son modèle :</label>
                 <select itemref="pref" name="choix">
+                  <option value="">Sélectionnez votre voiture</option>
                     <optgroup label="Avant 2015">
                         <option value="Abarth500">Abarth 500</option>
                         <option value="Abarth500C">Abarth 500 C</option>
@@ -199,7 +204,7 @@
                     </optgroup>
                     <optgroup label="Après 2015">
                         <option label="Abarth 595">Abarth 595</option>
-                        <option label="Abarth 595 C">Abarth 595C</option>
+                        <option label="Abarth 595 C">Abarth 595 C</option>
                         <option label="Abarth 595 Esseesse">Abarth 595 Esseesse</option>
                         <option label="Abarth 595 Competizione">Abarth 595 Competizione</option>
                     </optgroup>
@@ -208,9 +213,9 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Je ne participe pas</button>
-          <button type="button" class="btn btn-warning"> 
-            <a href="evenements.valide.html">Je participe</a>
-          </button>
+          <button type="submit" class="btn btn-warning" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal3">
+              Je participe
+          </button> 
         </div>
       </div>
     </div>
@@ -254,6 +259,28 @@
             Vous ne pouvez pas vous inscrire car l'événement a déjà eu lieu.
             <br>Mais nous vous attendons avec plaisir au prochain ;)
             <br> À très vite
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title fs-5" id="exampleModalLabel3"> Participation : ULTIME EXPO</h3>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+              </svg>
+          </button>
+        </div>
+        <div class="modal-body">
+           <h2>Votre participation a bien été prise en compte.</h2> 
+            <h4>Nous vous attendons avec plaisir le 23 Décembre ;) </h4>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
         </div>

@@ -15,7 +15,7 @@
 <header>
     <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">ABARTH CLUB PARIS</a>
+        <a class="navbar-brand" href="../index.html">ABARTH CLUB PARIS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                <a class="nav-link" aria-current="page" href="../index.html">Accueil</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="evenements.html">Événements</a>
@@ -43,7 +43,7 @@
     </nav>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+          <li class="breadcrumb-item"><a href="../index.html">Accueil</a></li>
           <li class="breadcrumb-item active" aria-current="page">Contact</li>
         </ol>
       </nav>
@@ -57,14 +57,14 @@
       <h4 class="card-title mt-3 text-center">Nous Contacter </h4>
       <p>
         <div class="form-group">
-          <button type="submit" class="btn btn-primary btn-block"> 
-            <a href="https://www.facebook.com/AbarthClubParis/?ref=page_internal" target="_blank">Facebook</a>  
-          </button>
+            <a href="https://www.facebook.com/AbarthClubParis/?ref=page_internal" target="_blank" class="btn btn-primary btn-block">
+              Facebook
+            </a>  
         </div>
           <div class="form-group">
-            <button type="submit" class="btn btn-danger btn-block"> 
-              <a href="https://www.instagram.com/abarthclubparis/" target="_blank">Instagram</a>  
-            </button>
+              <a href="https://www.instagram.com/abarthclubparis/" target="_blank" class="btn btn-danger btn-block">
+                Instagram
+              </a>
           </div>
       </p>
       <p class="divider-text">
@@ -77,36 +77,36 @@
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
          </div>
-            <input name="" class="form-control" placeholder="Votre Nom" type="text" required>
+            <input name="name" class="form-control" placeholder="Votre Nom" type="text" required>
       </div>
       <div class="form-group input-group">
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
          </div>
-            <input name="" class="form-control" placeholder="Votre Prénom" type="text" required>
+            <input name="nick-name" class="form-control" placeholder="Votre Prénom" type="text" required>
       </div>
       <div class="form-group input-group">
           <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
           </div>
-          <input name="" class="form-control" placeholder="Votre Numéro" type="text" required>
+          <input name="number" class="form-control" placeholder="0625122512" type="text" pattern="[0]{1}[6-7]{1}[0-9]{2}[0-9]{2}[0-9]{2}[0-9]{2}" required>
       </div>
       <div class="form-group input-group">
           <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
           </div>
-            <input name="" class="form-control" placeholder="Votre Adresse Mail" type="email" required>
+            <input name="email" class="form-control" placeholder="Votre Adresse Mail" type="email" required>
       </div> 
       <div class="form-group input-group">
         <div class="input-group-prepend">
             <span class="input-group-text"> <i class="fa fa-eur"></i> </span>
          </div>
-            <input name="" class="form-control" placeholder="Votre Don" type="text" required>
+            <input name="money" class="form-control" placeholder="Votre Don" type="number" min="1" required>
       </div>                                    
-        <div class="form-group">
-            <button type="submit" class="btn btn-warning btn-block"> 
-              <a href="contactdon.html">Faire un Don</a>  
-            </button>
+        <div class="form-group"> 
+          <button type="submit" class="btn btn-warning btn-block" formaction="contactdon.html"> 
+            Faire un Don 
+          </button>
         </div>                                                                   
     </form>
     </article>
