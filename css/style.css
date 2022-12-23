@@ -9,7 +9,6 @@ body,html{
 }
 
 /*header*/
-
 .navbar{
     background-color: black;
 }
@@ -42,7 +41,6 @@ body,html{
 }
 
 /*bannière*/
-    /*précisez sources*/
 .banner{
     width: 100%;
     max-width: 100%;
@@ -104,7 +102,6 @@ img {
 }
 
 /*breadcrumb*/
-
 .breadcrumb{
     background-color: black;
     border-radius: 0;
@@ -122,28 +119,27 @@ img {
     text-decoration: none;
 }
 
-/*événement*/
-    /*card*/
-    .row{
-        padding:0px;
-        margin: 0px;
-    }
+/*card*/
+.row{
+    padding:0px;
+    margin: 0px;
+}
 
-    .card-title{
-        font-weight: bold;
-    }
+.card-title{
+    font-weight: bold;
+}
 
-    .card{
-        margin: 2rem;
-        padding: 0;
-        word-wrap: break-word;
-        line-break: auto;
-    }
+.card{
+    margin: 2rem;
+    padding: 0;
+    word-wrap: break-word;
+    line-break: auto;
+}
 
-    .card-img-top{
-        height: 50%;
-        width: 100%;
-    }
+.card-img-top{
+    height: 50%;
+    width: 100%;
+}
 
 /*Modal*/
 .modal-footer button a{
@@ -163,24 +159,6 @@ img {
 
 .modal-body h4{
     font-size: 1.2rem;
-}
-
-/*Evenements valide*/
-.valid{
-    text-align: center;
-    background-color: blac;
-}
-
-.valid h1{
-    text-align: center;
-    color:rgba(255, 193, 7,0.8);
-    padding: 3%;
-}
-
-.valid h3{
-    text-align: center;
-    color:black;
-    padding: 3%;
 }
 
 /*Carousel*/
@@ -217,6 +195,23 @@ img {
 .form-group .btn a{
     text-decoration: none;
     color: black;
+}
+
+.valid{
+    text-align: center;
+    background-color: blac;
+}
+
+.valid h1{
+    text-align: center;
+    color:rgba(255, 193, 7,0.8);
+    padding: 3%;
+}
+
+.valid h3{
+    text-align: center;
+    color:black;
+    padding: 3%;
 }
 
 /*media queries*/

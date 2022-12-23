@@ -3,6 +3,6 @@ Site Vitrine : Association Abarth Club Paris
 Thème : Rassemblement pour la passion  
 
 Technologie : 
-  HTML : Utilisation rem % Iframe
-  CSS : Formulaire Transition Animation Queries
-  BOOTSTRAP : Bouton Container Breakpoint Flexbox List-group Icones Navigation Cartes Barre de progrès Pagination Modales
+  HTML : Utilisation rem % 
+  CSS : Formulaire Transition Queries
+  BOOTSTRAP : Bouton Container Breakpoint Flexbox List-group Icones Navigation Cartes Pagination Modales
