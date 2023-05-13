@@ -1,4 +1,4 @@
-# Bienvenue sur AbarthClubParis
+# Bienvenue sur Abarth Club Paris
 
 Abarth Club Paris est une association parisienne rassemblant les passionnés d'Abarth
 
